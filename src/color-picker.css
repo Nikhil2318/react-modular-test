@@ -1,0 +1,27 @@
+.color-picker {
+  text-align: center;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+
+.colors {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-left: 20px;
+}
+
+.color {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: bordor-color 3s;
+}
+
+.color:hover,
+.color.selected {
+  border-color: black;
+}
